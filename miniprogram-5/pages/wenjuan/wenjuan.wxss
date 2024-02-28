@@ -1,0 +1,45 @@
+.bg {
+    background-image: url(https://gd-hbimg.huaban.com/8a5298d7d38c15ca1cc6d9d046d6aa24986fb9f2c1f0-b8LfUj_fw1200);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+  
+  .content {
+    position: relative;
+    margin: 20px 20px;
+  }
+  .wjbt{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 宋体;
+    text-align: center;
+  }
+  .content > view {
+    font-size: 2.8vh;
+    border: 5rpx solid rgb(27, 169, 204);
+    border-radius: 10rpx;
+    padding: 20rpx 40rpx;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .content button {
+    font-size: 3vh;
+    height: 6.5vh;
+    line-height: 7.5vh;
+    background: #2abafd;
+    color: black;
+  }
+  
+  .content picker {
+    padding: 0.7vh 0;
+  }
+  
+  .content .phcolor {
+    color: black;
+  }
+  

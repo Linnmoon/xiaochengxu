@@ -1,0 +1,21 @@
+<!--pages/linn.wxml-->
+<view class="header" wx:if="{{isShowUserName}}" bindtap='change'>
+	<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+	<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+<!--如果用户没有授权，显示登陆按钮  -->
+<view wx:if="{{!isShowUserName}}" class="btn-login">
+	<button type="primary" bindtap="getUserProfile">授权登陆</button> 
+</view>
+
+<!-- 我的收藏 -->
+<view id="myFavorites">
+  <text>我的收藏({{num}})</text>
+  <!-- 收藏列表 -->
+  <view id="news-list">
+    <view class="list-item" wx:for="{{newsList}}" wx:for-item="news" wx:key="{{news.id}}">
+      <image src="{{news.poster}}"></image>
+      <text bindtap="goToDetail" data-id="{{news.id}}">◇ {{news.title}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="content">
+
+<view class="title">——— 走班排课系统 </view>
+<view class="text0"> 
+<view class="t1"><navigator url="../paike1/paike1" open-type="navigate">排课手册|关于走班排课的5个小技巧</navigator></view>
+<view class="t1"><navigator url="../paike1/paike1" open-type="navigate">排课手册|关于走班排课的5个小技巧</navigator></view>
+<view class="t1"><navigator url="../paike1/paike1" open-type="navigate">排课手册|关于走班排课的5个小技巧</navigator></view>
+<view class="t1"><navigator url="../paike1/paike1" open-type="navigate">排课手册|关于走班排课的5个小技巧</navigator></view>
+<view class="t1"><navigator url="../paike1/paike1" open-type="navigate">排课手册|关于走班排课的5个小技巧</navigator></view>
+</view>
+
+</view>

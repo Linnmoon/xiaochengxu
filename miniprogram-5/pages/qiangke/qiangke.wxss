@@ -1,0 +1,48 @@
+.bt{
+    font-size: 6vh;
+    font-family:楷体;
+    font-weight:bold;
+    color: brown;
+    text-align: center;
+    margin-bottom: 2.5vh;
+    margin-top:2.5vh;
+    text-decoration:underline;
+  
+  }
+  .bg{
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604980700166&di=5d8eb8ab33b5f4fd49b91ec4fecfa2f7&imgtype=0&src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F12738076167%2F641);
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .xbt{
+    font-size:3vh;
+    font-family:宋体;
+    color:black;
+    margin-top:2.5vh;
+  }
+  .cbg{
+    width: 270px;
+    height: 1600px;
+    background: transparent;
+    background-color: rgba(255, 182, 193,0.5);
+    border: 1px solid black ;
+    margin:20px auto;
+    border-radius: 20px;
+    padding: 10px 13px;  
+  }
+  .bt1{
+    font-size:4.0vh;
+    font-family:华文新魏;
+    font-weight:bold;
+    margin-bottom:1vh;
+    margin-top:2vh;
+  }
+  .kj{
+    font-size:3.0vh;
+    margin-bottom:4vh;
+    font-family:宋体;
+    font-weight: 500;
+    z-index: 9999;
+    color: black;
+  }

@@ -1,0 +1,14 @@
+{
+    "pages":[
+			"pages/shouye/shouye",
+			"pages/index/index",
+			"pages/logs/logs",
+			"pages/linn/linn",
+			"pages/wenjuan/wenjuan",
+			"pages/paike/paike",
+			"pages/xuanke/xuanke",
+			"pages/qiangke/qiangke",
+			"pages/palaka/palaka",
+			"pages/jike/jike"
+		]
+}

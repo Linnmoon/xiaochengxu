@@ -1,0 +1,33 @@
+<!--pages/wenjuan/wenjuan.wxml-->
+<view class="bg">
+  <view class="wjbt"><text >问卷调查</text></view>
+<form bindsubmit="formSubmit">
+  <view class="content">
+    <view>性别：
+      <radio-group name="gender">
+        <label><radio value="0" checked />男</label>
+        <label><radio value="1" />女</label>
+      </radio-group>
+    </view>
+    <view>
+      <picker name="num" bindchange="pickerChange" value="{{picker.index}}" range="{{picker.arr}}">
+        请您为微信小程序打分：{{picker.arr[picker.index]}}</picker>
+    </view>
+    <view>
+      <text>您可以接受多久更新一次小程序内容：</text>
+      <checkbox-group name="skills">
+        <label><checkbox value="one" checked />每天更新</label>
+        <label><checkbox value="two"  />每周3-4次</label>
+        <label><checkbox value="three" />每周1-2</label>
+        <label><checkbox value="four" />两周1次</label>
+      </checkbox-group>
+    </view>
+    <view>
+      <text>您对此微信小程序还有哪些期待与要求：</text>
+      <textarea name="opinion" value="如：" />
+    </view>
+    <button form-type="submit">提交</button>
+    <button form-type="message" bindtap="btnclick">获取订阅消息</button>
+  </view>
+</form>
+</view>

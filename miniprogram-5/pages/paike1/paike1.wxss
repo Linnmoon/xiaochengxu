@@ -1,0 +1,27 @@
+.content{
+    background-image: url(https://tse1-mm.cn.bing.net/th/id/OIP.5NN61zgEoajC9oTqj0-WOAHaNK?pid=Api&rs=1);
+    padding-top: 84rpx;
+    padding-bottom: 240rpx;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .bt{
+    font-size:3vh;
+    font-family:宋体;
+    color: rgb(21, 219, 226);
+    font-weight:bold;
+    margin-bottom:1vh;
+    margin-top:2vh;
+  }
+  .kj{
+    font-size:2.5vh;
+    margin:2px 20px;
+    font-family:楷体;
+    border:2px dotted;
+  }
+  text{
+    font-family:微软雅黑; 
+  }
+  .wzkj{
+    margin:10px 10px;
+  }

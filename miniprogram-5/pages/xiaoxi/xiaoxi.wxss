@@ -1,0 +1,21 @@
+page {
+	background: gainsboro;
+	background-image: url(https://pic50.photophoto.cn/20190222/0008118488068971_b.jpg);
+padding-top: 50rpx;
+padding-bottom: 800rpx;
+background-repeat: no-repeat;
+background-size: 300% 300%;
+		align-items: center;
+		justify-content: center;
+	text-align: left;
+}
+.header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+	align-items:center;
+}
+.bg {
+	padding: 8%;
+}

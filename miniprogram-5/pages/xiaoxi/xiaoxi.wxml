@@ -1,0 +1,5 @@
+<view class="bg">
+	<form bindsubmit="formSubmit">
+	<button type="primary" bindtap="btnclick">获取订阅消息</button>
+	</form>
+</view>

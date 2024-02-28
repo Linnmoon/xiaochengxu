@@ -1,0 +1,19 @@
+<view class="bg">
+<view class="bt">社团抢课指南手册<view class="xbt">你需要知道的抢课技巧！</view></view>
+<view class="cbg">
+<view class="kj">
+    <view class="bt1">1.进入家师学.cn系统</view>
+    <text decode="{{true}}">&emsp;&emsp;首先学生进入家师学.cn系统，点击学生社团抢课入口。学生输入自己的相关信息登陆系统，包括抢课代码、学校名称、年级、班级、姓名、学号以及身份证后 4 位进入系统抢课。</text>
+    <view class="bt1">2.学生绑定码由老师告知</view>
+    <text decode="{{true}}">&emsp;&emsp;抢代码就是年级社团抢课信息中的学生绑定码(学生绑定码由老师告知)学生进入系统抢课入口后，可以查看两个信息，第一当前年级社团抢课活动信息，第二当前年级社团班级信息。</text>
+    <view class="bt1">3.请查看好自己想选择的社团课信息</view>
+    <text decode="{{true}}">&emsp;&emsp;学生请查看好自己想选择的社团课信息，社团抢课活动信息包括抢课开始时间和结束时间、抢课次数和间隔、状态等信息。</text>
+    <view class="bt1">4.学生选择好并且检查好自己的社团课程</view>
+    <text decode="{{true}}">&emsp;&emsp;学生选择好社团课程后，点击申请提交，提交后弹出选择的对应社团课信息就表示抢课成功了。</text>
+    <view class="bt1">5.抢课注意事项</view>
+    <text decode="{{true}}">&emsp;&emsp;学生在抢课时，出现不能抢课的情况时，可考虑到两个原因。一是抢课时间已经结束的情况;二是这个社团的最大学生人数已经满了学生不可再选择当前的社团，可考虑参加别的社团课程。</text>
+    <view class="bt1">6.抢课的最后一步</view>
+    <text decode="{{true}}">&emsp;&emsp;学生填写完信息登陆进去，出现本学期抢课已结束提示信息界面,表示抢课已结束。请学生及时关注老师通知的抢课时间，以免错过抢课耽误课程。学生选择完课程，弹出课程信息后，即抢课流程结束。</text>
+</view>
+</view>
+</view>

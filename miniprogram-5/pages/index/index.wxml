@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!-- wxml -->
+<view class="content">
+  <view class="nav-wrap">
+    <scroll-view class="scro"scroll-x>
+      <navigator url="../paike/paike" open-type="navigate">排课</navigator>
+      <navigator url= "../xuanke/xuanke" open-type="navigate">选课</navigator>
+      <navigator url="../qiangke/qiangke" open-type="navigate">抢课</navigator>
+			<navigator url="../palaka/palaka" open-type="navigate">帕拉卡</navigator>
+			<navigator url="../jike/jike" open-type="navigate">极课</navigator>
+    </scroll-view>
+  </view>  
+  </view>
+
+  <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+    <block wx:for="{{bnrUrl}}" wx:for-index="index">
+      <swiper-item>
+        <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+	<!-- 新闻列表 -->
+<view id="news-list">
+ <view class="list-item" wx:for="{{newsList}}" wx:for-item="news" wx:key="{{news.id}}">
+    <image src="{{news.poster}}"></image>
+    <text bindtap="goToDetail" data-id="{{news.id}}"> {{news.title}}</text>
+ </view>
+</view>
+
+

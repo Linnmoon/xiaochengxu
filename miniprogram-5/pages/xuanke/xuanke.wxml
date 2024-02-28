@@ -1,0 +1,42 @@
+<view class="inside">
+  <view class="style"><text> ● 第一步 </text></view>
+  <view class="zh">
+    <image class="zhImg" src="../image/xk1.png"/>
+    <block class="cont1">
+      <view class="wz"><text decode="{{true}}">&emsp;&emsp;学生登录家师学.cn系统开始选课(在规定的选课时间内)。注意：学生无需注册，即可登录系统进行选课。</text></view>
+    </block>
+  </view>
+  <view>————————————————————————————</view>
+  <view class="style"><text> ● 第二步</text></view>
+  <view class="zh">
+    <image class="zhImg" src="../image/xk3.png"/>
+    <block class="cont1">
+      <view class="wz"><text decode="{{true}}">&emsp;&emsp;自我识别码由字母和数字组成，长度不能超过六位，第一次登陆为空，由学生自己设置，设置以后输入相同才能登陆系统。</text></view>
+    </block>
+  </view>
+  <view>————————————————————————————</view>
+  <view class="style"><text> ● 第三步</text></view>
+  <view class="zh">
+    <image class="zhImg" src="../image/xk2.png"/>
+    <block class="cont1">
+      <view class="wz"><text decode="{{true}}">&emsp;&emsp;学生登录后进入选课，选择3门课程即可。</text></view>
+    </block>
+  </view>
+  <view>————————————————————————————</view>
+  <view class="style"><text> ● 第四步 </text></view>
+  <view class="zh">
+    <image class="zhImg" src="../image/xk4.png"/>
+    <block class="cont1">
+      <view class="wz"><text decode="{{true}}">&emsp;&emsp;选择好课程的学生也可以进入系统修改课程。</text></view>
+    </block>
+  </view>
+  <view>————————————————————————————</view>
+  <view class="style"><text> ● 第五步 </text></view>
+  <view class="zh">
+    <image class="zhImg" src="../image/xk5.png"/>
+    <block class="cont1">
+      <view class="wz"><text decode="{{true}}">&emsp;&emsp;学生选课结束。</text></view>
+    </block>
+  </view>
+  <view>————————————————————————————</view>
+</view>
